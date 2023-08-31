@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primer pagina</title>
+</head>
+
+<body>
+    <h1>Registrar un usuario</h1>
+
+    <form action="https://localhost:8080/api/registro" method="post"></form>
+    Nombre del usuario <br>
+    <input type="text"><br>
+    Contraseña del usuario <br>
+    <input type="password" name="contraseña" id=""><br>
+    Edad del usuario <br>
+    <input type="number" name="number" id=""><br>
+    Fecha de nacimiento <br>
+    <input type="date" name="nacimiento" id=""><br>
+    sexo del usuario
+
+    </form>
+    <form>
+        <input id="Hombre" type="radio" name="sexo" value="Hombre">
+        <label>Hombre</label>
+        <br>
+        <input id="Mujer" type="radio" name="sexo" value="Mujer">
+        <label>Mujer</label>
+        <br>
+        <input id="Prefiero no decir" type="radio" name="sexo" value="Prefiero no decir">
+        <label>Prefiero no decir</label>
+        <br>
+        Pais de nacimiento del usuario
+        <br>
+        <form>
+            <select>
+                <option>Argentina</option>
+                <option>Bolivia</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Cuba</option>
+                <option>Colombia</option>
+            </select>
+            <br>
+            <button>Enviar</button> <button>Borrar</button><br>
+
+        </form>
+    </form>
+</body>
